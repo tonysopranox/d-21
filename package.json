@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-projektas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css --minify --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.79.4",
+    "tailwindcss": "^3.4.1"
+  }
+}
